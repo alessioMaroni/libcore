@@ -32,8 +32,16 @@ int main()
     printf("ULLONG MAX: %llu\n", ULLONG_MAX);
     printf("ULLONG MIN: %llu\n\n", ULLONG_MIN);
 
+    printf("FLT MAX: %e\n", FLT_MAX);
+    printf("FLT MIN (Pos): %e\n", FLT_MIN);
+    printf("FLT NEG MIN: %e\n\n", FLT_NEG_MIN);
+
+    printf("DBL MAX: %.16e\n", DBL_MAX);
+    printf("DBL MIN (Pos): %.16e\n", DBL_MIN);
+    printf("DBL NEG MIN: %.16e\n\n", DBL_NEG_MIN);
+
     // Should return -1
     printf("Check Sum Result %d\n", check_sum(10, INT_MAX));
 
     return 0;
- }
+}
