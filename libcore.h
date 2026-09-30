@@ -5,6 +5,6 @@
 #include "lib/limits.h"
 
 // Math functions
-#include "lib/math.h"
+#include "lib/math/math.h"
 
 #endif
